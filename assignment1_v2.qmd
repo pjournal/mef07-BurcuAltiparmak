@@ -103,7 +103,7 @@ categories <- c("Category A", "Category B", "Category C", "Category D")
 values <- c(25, 40, 30, 50)
 
 # Create a bar plot
-barplot(values, names.arg = categories, main = "Simple Bar Plot", xlab = "Categories", ylab = "Values", col = "skyblue")
+barplot(values, names.arg = categories, main = "Simple Bar Plot", xlab = "Categories", ylab = "Values", col = "purple")
 
 ```
 
