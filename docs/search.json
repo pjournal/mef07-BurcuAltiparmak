@@ -30,8 +30,36 @@
   {
     "objectID": "assignment1.html",
     "href": "assignment1.html",
-    "title": "1  Assignment 1",
+    "title": "1  Assignment1",
     "section": "",
-    "text": "set.seed(1)\nvec1 <- sample(LETTERS,5)\npaste0(vec1,collapse=\"\")\n\n[1] \"YDGAB\""
+    "text": "2 Introduction\nHello, this is Burcu! I work as a senior manager at EY, Tax Technology and Transformation service line. I have a very fun and young team of 13 people. We run projects that design processes transforming our clients’ time-consuming tasks with technology. In our projects, we make extensive use of data analytics and robotic process automation tools. I believe that a Master’s program in Big Data Analytics will take my career to the next level. Learning and experiencing new tools can be challenging but also enjoyable!\nYou can find more about my professional background and connect with me on Linkedin !\nGet started with Quarto | Mine Çetinkaya-Rundel\nThis video helped me well for my first intend to implement my quarto assignment. I believe starting with this video will be beneficial.\nMillion Song Dataset:\nThe Million Song Dataset is a comprehensive music dataset containing information on millions of songs. It includes a range of musical features for each song, such as tempo, key, vocal content, danceability, and more. Additionally, it provides details about the song, artist, album, and music genre.\nKey Features:\nData Source: The Million Song Dataset was created by The Echo Nest and is hosted at Columbia University. This dataset is publicly available for research and educational purposes.\nAccess: For access to the Million Song Dataset and more detailed information, you can visit the official website.\nThis dataset is suitable for analyzing music genres, classifying songs, learning about music, or enhancing your data science skills in an educational project. You can find detailed information and access instructions on the official website linked above."
+  },
+  {
+    "objectID": "assignment1.html#introduction",
+    "href": "assignment1.html#introduction",
+    "title": "1  Assignment 1",
+    "section": "1.1 2. Introduction",
+    "text": "1.1 2. Introduction\nThis is a template example qmd output page. You may see an example R code below.\n\nset.seed(1)\nvec1 &lt;- sample(LETTERS,5)\npaste0(vec1,collapse=\"\")\n\n[1] \"YDGAB\""
+  },
+  {
+    "objectID": "assignment1.html#calculating-mean-median-and-standard-deviation",
+    "href": "assignment1.html#calculating-mean-median-and-standard-deviation",
+    "title": "1  Assignment1",
+    "section": "5.1 1. Calculating Mean, Median, and Standard Deviation:",
+    "text": "5.1 1. Calculating Mean, Median, and Standard Deviation:\n\n# Create a numeric vector\ndata &lt;- c(12, 18, 25, 32, 45, 54, 63)\n\n# Calculate the mean, median, and standard deviation\nmean_value &lt;- mean(data)\nmedian_value &lt;- median(data)\nstd_dev &lt;- sd(data)\n\n# Print the results\ncat(\"Mean:\", mean_value, \"\\n\")\n\nMean: 35.57143 \n\ncat(\"Median:\", median_value, \"\\n\")\n\nMedian: 32 \n\ncat(\"Standard Deviation:\", std_dev, \"\\n\")\n\nStandard Deviation: 19.01628 \n\n\nThis code calculates the mean, median, and standard deviation of a numeric vector data."
+  },
+  {
+    "objectID": "assignment1.html#creating-and-plotting-a-scatter-plot",
+    "href": "assignment1.html#creating-and-plotting-a-scatter-plot",
+    "title": "1  Assignment1",
+    "section": "5.2 Creating and Plotting a Scatter Plot:",
+    "text": "5.2 Creating and Plotting a Scatter Plot:\n\n# Create example data\nx &lt;- c(1, 2, 3, 4, 5)\ny &lt;- c(2, 4, 6, 8, 10)\n\n# Create a scatter plot\nplot(x, y, main = \"Scatter Plot Example\", xlab = \"X-Axis\", ylab = \"Y-Axis\", pch = 19, col = \"blue\")\n\n\n\n\nThis code creates a simple scatter plot using the plot function."
+  },
+  {
+    "objectID": "assignment1.html#creating-a-bar-plot",
+    "href": "assignment1.html#creating-a-bar-plot",
+    "title": "1  Assignment1",
+    "section": "5.3 Creating a Bar Plot:",
+    "text": "5.3 Creating a Bar Plot:\n\n# Sample data\ncategories &lt;- c(\"Category A\", \"Category B\", \"Category C\", \"Category D\")\nvalues &lt;- c(25, 40, 30, 50)\n\n# Create a bar plot\nbarplot(values, names.arg = categories, main = \"Simple Bar Plot\", xlab = \"Categories\", ylab = \"Values\", col = \"skyblue\")\n\n\n\n\nIn this example, there is a vector of category names and their corresponding values. The code creates a basic bar plot using the barplot function, showing the distribution of values across the categories. You can modify the categories and values vectors to represent your own data for this bar plot.\nYou may visit my repository Github Repository"
   }
 ]
