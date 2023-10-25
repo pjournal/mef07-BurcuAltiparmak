@@ -45,8 +45,8 @@
     "objectID": "assignment1.html#calculating-mean-median-and-standard-deviation",
     "href": "assignment1.html#calculating-mean-median-and-standard-deviation",
     "title": "1  Assignment1",
-    "section": "5.1 1. Calculating Mean, Median, and Standard Deviation:",
-    "text": "5.1 1. Calculating Mean, Median, and Standard Deviation:\n\n# Create a numeric vector\ndata &lt;- c(12, 18, 25, 32, 45, 54, 63)\n\n# Calculate the mean, median, and standard deviation\nmean_value &lt;- mean(data)\nmedian_value &lt;- median(data)\nstd_dev &lt;- sd(data)\n\n# Print the results\ncat(\"Mean:\", mean_value, \"\\n\")\n\nMean: 35.57143 \n\ncat(\"Median:\", median_value, \"\\n\")\n\nMedian: 32 \n\ncat(\"Standard Deviation:\", std_dev, \"\\n\")\n\nStandard Deviation: 19.01628 \n\n\nThis code calculates the mean, median, and standard deviation of a numeric vector data."
+    "section": "5.1 Calculating Mean, Median, and Standard Deviation:",
+    "text": "5.1 Calculating Mean, Median, and Standard Deviation:\n\n# Create a numeric vector\ndata &lt;- c(12, 18, 25, 32, 45, 54, 63)\n\n# Calculate the mean, median, and standard deviation\nmean_value &lt;- mean(data)\nmedian_value &lt;- median(data)\nstd_dev &lt;- sd(data)\n\n# Print the results\ncat(\"Mean:\", mean_value, \"\\n\")\n\nMean: 35.57143 \n\ncat(\"Median:\", median_value, \"\\n\")\n\nMedian: 32 \n\ncat(\"Standard Deviation:\", std_dev, \"\\n\")\n\nStandard Deviation: 19.01628 \n\n\nThis code calculates the mean, median, and standard deviation of a numeric vector data."
   },
   {
     "objectID": "assignment1.html#creating-and-plotting-a-scatter-plot",

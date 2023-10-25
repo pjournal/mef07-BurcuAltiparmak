@@ -61,7 +61,7 @@ This dataset is suitable for analyzing music genres, classifying songs, learning
 
 # R Posting
 
-## **1. Calculating Mean, Median, and Standard Deviation:**
+## **Calculating Mean, Median, and Standard Deviation:**
 
 ```{r}
 # Create a numeric vector
