@@ -1,0 +1,6 @@
+---
+title: "inClass1"
+date: "2023-10-01"
+editor: visual
+author: Burcu Altıparmak
+---
