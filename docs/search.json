@@ -53,6 +53,20 @@
     "href": "assignment_shiny.html",
     "title": "4  assignment_shiny",
     "section": "",
-    "text": "#Shiny App link\nBurcuShinyLink\n#Command Line\nshiny::runGitHub(repo = “pjournal/mef07-BurcuAltiparmak”,subdir=“Shiny/app.R”)"
+    "text": "5 Shiny App link\nBurcuShinyLink\n\n\n6 Command Line\nshiny::runGitHub(repo = “pjournal/mef07-BurcuAltiparmak”,subdir=“Shiny/app.R”)"
+  },
+  {
+    "objectID": "assignment_shiny.html#shiny-app-link",
+    "href": "assignment_shiny.html#shiny-app-link",
+    "title": "4  assignment_shiny",
+    "section": "4.1 Shiny App link",
+    "text": "4.1 Shiny App link\nBurcuShinyLink"
+  },
+  {
+    "objectID": "assignment_shiny.html#command-line",
+    "href": "assignment_shiny.html#command-line",
+    "title": "4  assignment_shiny",
+    "section": "4.2 Command Line",
+    "text": "4.2 Command Line\nshiny::runGitHub(repo = “pjournal/mef07-BurcuAltiparmak”,subdir=“Shiny/app.R”)"
   }
 ]
