@@ -49,13 +49,6 @@
     "text": "4 Örnek grafikler\n\n\n5 Grafik 1: Irk (species) sayısını gösteren sütun grafiği\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nspecies_count &lt;- starwars %&gt;% \n  group_by(species) %&gt;% \n  summarise(count = n())\nggplot(species_count, aes(x = species, y = count)) +\n  geom_col(fill = \"skyblue\", color = \"black\") +\n  labs(title = \"Star Wars Characters by Species\", x = \"Species\", y = \"Count\") +\n  theme_minimal()\n\n\n\n\n\nlibrary(ggplot2)\ndata(starwars)\n# Grafik: Karakterlerin boy uzunluklarına göre ağırlıklarının scatter plot'u\nggplot(starwars, aes(x = height, y = mass, color = species)) +\n  geom_point(size = 3) +\n  labs(title = \"Star Wars Characters' Mass by Height\", x = \"Height\", y = \"Mass\") +\n  scale_color_brewer(palette = \"Dark2\") +\n  theme_minimal()\n\nWarning in RColorBrewer::brewer.pal(n, pal): n too large, allowed maximum for palette Dark2 is 8\nReturning the palette you asked for with that many colors\n\n\nWarning: Removed 77 rows containing missing values (`geom_point()`)."
   },
   {
-    "objectID": "assignment_shiny.html",
-    "href": "assignment_shiny.html",
-    "title": "4  assignment_shiny",
-    "section": "",
-    "text": "5 Shiny App link\nBurcuShinyLink\n\n\n6 Command Line\nshiny::runGitHub(repo = “pjournal/mef07-BurcuAltiparmak”,subdir=“Shiny/app.R”)"
-  },
-  {
     "objectID": "assignment_shiny.html#shiny-app-link",
     "href": "assignment_shiny.html#shiny-app-link",
     "title": "4  assignment_shiny",
