@@ -5,7 +5,7 @@ account: burcualtiparmakmef
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10623651
-bundleId: 7967653
+bundleId: 7967736
 url: https://burcualtiparmakmef.shinyapps.io/Shiny/
 version: 1
 asMultiple: FALSE
