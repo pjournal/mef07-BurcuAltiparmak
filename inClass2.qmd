@@ -1,0 +1,34 @@
+---
+title: "inClass2"
+date: "Sys.Date()"
+editor: visual
+author: Burcu Altıparmak
+---
+
+# Örnek grafikler
+
+# Grafik 1: Irk (species) sayısını gösteren sütun grafiği
+
+```{r}
+library(ggplot2)
+library(dplyr)
+species_count <- starwars %>% 
+  group_by(species) %>% 
+  summarise(count = n())
+ggplot(species_count, aes(x = species, y = count)) +
+  geom_col(fill = "skyblue", color = "black") +
+  labs(title = "Star Wars Characters by Species", x = "Species", y = "Count") +
+  theme_minimal()
+```
+
+```{r}
+library(ggplot2)
+data(starwars)
+# Grafik: Karakterlerin boy uzunluklarına göre ağırlıklarının scatter plot'u
+ggplot(starwars, aes(x = height, y = mass, color = species)) +
+  geom_point(size = 3) +
+  labs(title = "Star Wars Characters' Mass by Height", x = "Height", y = "Mass") +
+  scale_color_brewer(palette = "Dark2") +
+  theme_minimal()
+
+```
