@@ -1,6 +1,6 @@
 ---
 title: "inClass2"
-date: "Sys.Date()"
+date: "`r format(Sys.time(), '%d %B %Y')`"
 editor: visual
 author: Burcu Altıparmak
 ---

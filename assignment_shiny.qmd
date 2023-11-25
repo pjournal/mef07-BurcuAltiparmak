@@ -1,6 +1,6 @@
 ---
 title: "assignment_shiny"
-date: "Sys.Date()"
+date: "`r format(Sys.time(), '%d %B %Y')`"
 editor: visual
 author: Burcu Altıparmak
 ---
