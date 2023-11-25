@@ -1,13 +1,13 @@
 ---
 title: "assignment_shiny"
-editor: visual
 date: "Sys.Date()"
+editor: visual
 author: Burcu Altıparmak
 ---
 
 #Shiny App link
 
-[BurcuShinyLink](https://burcualtiparmakmef.shinyapps.io/Shiny/%3E)
+[BurcuShinyLink](https://burcualtiparmakmef.shinyapps.io/Shiny/)
 
 #Command Line
 
