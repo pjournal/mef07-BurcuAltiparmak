@@ -5,7 +5,7 @@ editor: visual
 author: Burcu Altıparmak
 ---
 
-## **Project Portfolio Optimization at Hewlett Packard**  {.unnumbered}
+## **Project Portfolio Optimization at Hewlett Packard**
 
 ### **Business Case:**
 
