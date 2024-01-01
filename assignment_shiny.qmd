@@ -5,10 +5,10 @@ editor: visual
 author: Burcu Altıparmak
 ---
 
-## Shiny App link
+## Shiny App link {.unnumbered}
 
 [BurcuShinyLink](https://burcualtiparmakmef.shinyapps.io/Shiny/)
 
-## Command Line
+## Command Line {.unnumbered}
 
 **shiny::runGitHub(repo = "pjournal/mef07-BurcuAltiparmak",subdir="Shiny/app.R")**

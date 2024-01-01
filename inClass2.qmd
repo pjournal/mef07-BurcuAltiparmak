@@ -5,9 +5,9 @@ editor: visual
 author: Burcu Altıparmak
 ---
 
-# Örnek grafikler
+# Graph examples {.unnumbered}
 
-# Grafik 1: Irk (species) sayısını gösteren sütun grafiği
+# Grafik 1: Irk (species) sayısını gösteren sütun grafiği {.unnumbered}
 
 ```{r}
 library(ggplot2)
