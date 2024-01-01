@@ -1,0 +1,44 @@
+---
+title: "OR Homework"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+editor: visual
+author: Burcu Altıparmak
+---
+
+## **Project Portfolio Optimization at Hewlett Packard** 
+
+### **Business Case:**
+
+Managing a portfolio of IT projects efficiently poses a significant challenge due to the vast number of project combinations, conflicting business objectives, and resource constraints. The former Hewlett Packard Global IT organization faced difficulties in manually optimizing portfolios, leading to sub-optimal results, wasted resources, and project delays.
+
+### **Problem Description:**
+
+The challenge was to optimize the selection and scheduling of a portfolio of IT projects while considering conflicting business objectives, resource constraints (e.g., labor availability, budgets), and project precedence constraints. The complexity increased with the split/merge of Hewlett Packard into four companies: HP Inc., Hewlett Packard Enterprise, DXC Technology, and Micro Focus.
+
+### **Solution:**
+
+To address this, a decision support tool named Project Portfolio Optimization (PPO) was developed. PPO automated the complex calculations involved in creating and maintaining an IT project portfolio. The tool incorporated a "what-if-analysis" feature, allowing business and IT planners to shape a portfolio that optimally balanced various business objectives, considering resource and business constraints.
+
+#### **Key Features of PPO:**
+
+-   Decision variables: Selection of IT projects and their start times.
+
+-   Input data from Business Value Proposition (BVP) and Project Portfolio Management (PPM) tools.
+
+-   Ability to handle single or multiple business objectives using lexicographical (hierarchical) method.
+
+-   Output: Maximization of project portfolio business value, considering budget, resource, scheduling, and strategic alignment constraints.
+
+#### **Benefits:**
+
+1.  **Efficiency:** Automation reduced manual efforts, making the portfolio optimization process more efficient.
+
+2.  **Optimized Trade-offs:** PPO enabled decision-makers to optimize trade-offs between conflicting business objectives.
+
+3.  **Real-time Updates:** Incremental updates in the staging area ensured timely and accurate information, adapting to changes in business conditions.
+
+4.  **Multiple Scenarios:** The tool's optimization scenario queue manager allowed simultaneous solving of multiple scenarios, enhancing decision-making flexibility.
+
+In summary, the implementation of Project Portfolio Optimization provided Hewlett Packard Global IT with a sophisticated tool to tackle the complexities of managing IT project portfolios, resulting in more efficient resource utilization and better alignment with business objectives.\
+\
+please [click here](IT project portfolio optimization to maximize business value with respect to budget, resources, scheduling and strategic alignment.) to explore more about the **Hewlett Packard Project Portfolio Optimization.**

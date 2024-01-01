@@ -11,6 +11,7 @@ book:
     - inClass1.qmd
     - inClass2.qmd
     - assignment_shiny.qmd
+    - OR_Homework.qmd
   page-footer: 
     center: "[MEF BDA 503](https://mef-bda503.github.io)" 
   sharing: [twitter, facebook]
