@@ -1,4 +1,3 @@
-
 library(shiny)
 library(ggplot2)
 library(dplyr)
@@ -10,34 +9,29 @@ ui <- fluidPage(
   # Başlık 
   titlePanel("Star Wars Karakterleri"),
   
-  # Slidebar ve SelectInput
-  sidebarLayout(
-    sidebarPanel(
-      sliderInput("height",
-                  "Minion Yüksekliği:",
-                  min = 0,
-                  max = 250,
-                  value = c(0, 250),
-                  step = 10),
-      selectInput("species",
-                  "Minion Türü:",
-                  choices = unique(starwars$species),
-                  multiple = TRUE)
-    ),
-    mainPanel(
-      # Grafik alanını tanımlayın
-      plotOutput("plot")
-    )
+  # SelectizeInput
+  selectizeInput("selected_species",
+                 label = "Minion Türü Seçiniz:",
+                 choices = c("All", unique(starwars$species)),
+                 selected = "All",
+                 multiple = TRUE),
+  
+  # Grafik alanını tanımlayın
+  mainPanel(
+    plotOutput("plot")
   )
 )
 
 # Server fonksiyonunu tanımlayın
 server <- function(input, output) {
-  # Slidebar ve SelectInput'a bağlı olarak verileri alt kümeleyin
+  
+  # Seçilen türleri filtrele
   filtered_data <- reactive({
-    filter(starwars,
-           height >= input$height[1] & height <= input$height[2],
-           if (!is.null(input$species)) species %in% input$species else TRUE)
+    if (input$selected_species != "All") {
+      filter(starwars, species %in% input$selected_species)
+    } else {
+      starwars
+    }
   })
   
   # Grafik çizin
