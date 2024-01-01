@@ -41,4 +41,4 @@ To address this, a decision support tool named Project Portfolio Optimization (P
 
 In summary, the implementation of Project Portfolio Optimization provided Hewlett Packard Global IT with a sophisticated tool to tackle the complexities of managing IT project portfolios, resulting in more efficient resource utilization and better alignment with business objectives.\
 \
-please [click here](IT project portfolio optimization to maximize business value with respect to budget, resources, scheduling and strategic alignment.) to explore more about the **Hewlett Packard Project Portfolio Optimization.**
+please [click here](IT%20project%20portfolio%20optimization%20to%20maximize%20business%20value%20with%20respect%20to%20budget,%20resources,%20scheduling%20and%20strategic%20alignment.) to explore more about the **Hewlett Packard Project Portfolio Optimization.**
